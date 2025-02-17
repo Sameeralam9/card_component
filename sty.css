@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color:#fafafa;
 }
 .container {
   margin: 2vw 3em;
@@ -40,6 +40,8 @@ body {
   background-color: white;
   box-shadow: 0 0 10px 10px rgb(239, 235, 235);
   border-radius: 6px;
+  max-width:100%;
+  
 }
 .gridContainer {
   margin-top: 4em;
