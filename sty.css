@@ -9,7 +9,7 @@ body {
   align-items: center;
   background-color: #fafafa;
 }
-.outer {
+.container {
   margin: 2vw 3em;
 }
 
@@ -25,13 +25,16 @@ body {
   font-size: 2.28vw;
   font-weight: 400;
 }
+.title {
+  display: flex;
+  justify-content: center;
+}
 #title {
   padding-top: 1vw;
   font-size: 1.1vw;
   text-align: center;
   color: hsl(234, 12%, 34%);
   max-width: 25em;
-  justify-self: center;
 }
 .gridContainer div {
   background-color: white;
@@ -88,7 +91,7 @@ body {
 }
 
 @media (max-width: 1440px) {
-  .outer {
+  .container {
     padding: 4vw 0 8vw 0;
   }
 }
