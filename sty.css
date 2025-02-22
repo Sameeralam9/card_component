@@ -65,10 +65,11 @@ body {
 .gridContainer div {
   padding: 2vw;
 }
-.gridContainer div img {
+.img {
   margin-top: 1em;
   display: block;
-  justify-self: end;
+  display: flex;
+  justify-content: end;
 }
 .item1 {
   border-top: 5px solid hsl(180, 62%, 55%);
